@@ -60,10 +60,25 @@ projects:
 skills:
   toolset:
     - name: Python & Flask
-    - name: JavaScript 
+      level: 80%
+
+    - name: JavaScript
+      level: 70%
+
     - name: React.js
+      level: 80%
+
     - name: HTML5 & CSS
+      level: 85%
+
     - name: Git
+      level: 80%
+
     - name: PosgreSQL, SQL & SQLAlchemy
+      level: 70%
+
     - name: Bootstrap
+      level: 85%
+
     - name: JSON Web Token (JWT)
+      level: 70%
