@@ -3,14 +3,9 @@ skin: "blue"
 
 # Personal Information
 basic_info:
-
-    # Your full name
     first_name: Ali
     last_name: Pereira
-    
-    # Define yourself in 4-5 words
     motto: I like programming.
-    
     # Focus
     focus: Learning everything I can about programming.
     
@@ -62,15 +57,15 @@ education:
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2024 - 2025
-      # details: |
-      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
-      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
-      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      #   pretium quis, sem.
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
-      #     - Bullet point
-      #     - Bullet point
+          - Bullet point
+          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
