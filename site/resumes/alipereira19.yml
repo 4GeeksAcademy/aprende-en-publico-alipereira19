@@ -1,166 +1,69 @@
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
 basic_info:
-    first_name: Ali
-    last_name: Pereira
-    motto: I like programming.
-    # Focus
-    focus: Learning everything I can about programming.
-    
-    # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      I am an active person who really enjoys playing sports, such as tennis and padel.
-      I started learning about programming last year when I decided to be part of the Full-Stack Web development course in 4geeks Academy.
-      I'm currently getting into Data Science and Machine Learning and I would love to be part of a big AI project.
+  first_name: Ali
+  last_name: Pereira
+  motto: I like programming.
+  focus: Learning everything I can about programming.
+  summary: |
+    I am an active person who really enjoys playing sports, such as tennis and padel.
+    I started learning about programming last year when I decided to be part of the Full-Stack Web development course in 4geeks Academy.
+    I'm currently getting into Data Science and Machine Learning and I would love to be part of a big AI project.
+  avatar: https://cdn2.iconfinder.com/data/icons/random-outline-3/48/random_14-512.png
+  email: aliper1908@gmail.com
+  github: alipereira19
+  linkedin: alipereiracastillo
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Tennis
+    - item: Padel
+    - item: Programming
 
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://cdn2.iconfinder.com/data/icons/random-outline-3/48/random_14-512.png
-
-    # Contact Information
-    email: aliper1908@gmail.com
-    phone:  #optional
-    website:  #optional
-    linkedin: alipereiracastillo #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: alipereira19
-    
-    twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-
-    # Languages you speak, levels include: Native, Professional
-    languages:
-      - idiom: English
-        level: Professional
-
-      - idiom: Spanish
-        level: Native
-
-    # Interests or hobbies
-    interests:
-      - item: Tennis
-
-      - item: Padel
-
-      - item: Programming
-
-# Your previous education
 education:
-    - degree: Full Stack Developer
-      university: 4Geeks Academy
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2024 - 2025
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2025
+    details: |
+      - Bullet point describing your studies
 
-          - Bullet point
-          - Bullet point
-
-# Your previous job experiences or volunteer
 experiences:
-    - role: Virtual Receptionist
-      time: 2024 - Present
-      company: The Smile Mission, Florida
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      # details: |
-      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      #   Cum sociis natoque penatibus et magnis dis parturient montes,
-      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      #   error sit voluptatem accusantium doloremque laudantium, totam rem
-      #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      #   architecto beatae vitae dicta sunt explicabo.
+  - role: Virtual Receptionist
+    time: 2024 - Present
+    company: The Smile Mission, Florida
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      - Bullet point describing your role
+  - role: Sales Representative
+    time: 2020 - 2021
+    company: Pereira Motors, Venezuela
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      - Bullet point describing your role
 
-      #     - Bullet point
-      #     - Bullet point
-
-    - role: Sales Representative
-      time: 2020 - 2021
-      company: Pereira Motors, Venezuela
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      # details: |
-      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      #   Cum sociis natoque penatibus et magnis dis parturient montes,
-      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      #   pellentesque eu, pretium quis, sem.
-
-      #     - Bullet point
-      #     - Bullet point
-
-# Your project portfolio
 projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Via Sacra
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/alipereira19/Via-Sacra"
-        tagline: "A web app made for immigrants who wants more safety."
-
-      # - title: DevStudio
-      #   # optional
-      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #   link: "#"
-      #   tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      # - title: Tempo
-      #   # optional
-      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #   link: "#"
-      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      # - title: Atom
-      #   # optional
-      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #   link: "#"
-      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      # - title: Delta
-      #   # optional
-      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #   link: "#"
-      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Via Sacra
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/alipereira19/Via-Sacra"
+      tagline: "A web app made for immigrants who wants more safety."
 
 skills:
-    toolset:
-      - name: Python & Flask
-        # level: 98%
-
-      - name: JavaScript 
-        # level: 98%
-
-      - name: React.js
-        # level: 98%
-
-      - name: HTML5 & CSS
-        # level: 95%
-
-      - name: Git
-        # level: 85%
-
-      - name: PosgreSQL, SQL & SQLAlchemy
-        # level: 60%
-
-      - name: Bootstrap
-
-      - name: JSON Web Token (JWT)
+  toolset:
+    - name: Python & Flask
+    - name: JavaScript 
+    - name: React.js
+    - name: HTML5 & CSS
+    - name: Git
+    - name: PosgreSQL, SQL & SQLAlchemy
+    - name: Bootstrap
+    - name: JSON Web Token (JWT)
