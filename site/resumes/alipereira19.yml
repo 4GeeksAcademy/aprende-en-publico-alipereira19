@@ -30,7 +30,7 @@ education:
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2024 - 2025
     details: |
-      - Bullet point describing your studies
+       Bullet point describing your studies
 
 experiences:
   - role: Virtual Receptionist
@@ -38,13 +38,13 @@ experiences:
     company: The Smile Mission, Florida
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      - Bullet point describing your role
+       Bullet point describing your role
   - role: Sales Representative
     time: 2020 - 2021
     company: Pereira Motors, Venezuela
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      - Bullet point describing your role
+       Bullet point describing your role
 
 projects:
   intro: >
